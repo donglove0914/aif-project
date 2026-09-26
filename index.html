@@ -583,6 +583,16 @@ robotics and onchain technology.
     <p>© 2026 AI Frontier Community</p>
   </div>
 </footer>
+<script>
+function copyContract() {
+  const contract = "0x74E9571bF001e580Bca92d00aa5710Fe5C55E71f";
 
+  navigator.clipboard.writeText(contract).then(() => {
+    alert("AIF Contract copied!");
+  }).catch(() => {
+    alert("Copy failed. Please copy the contract manually.");
+  });
+}
+</script>
 </body>
 </html>
